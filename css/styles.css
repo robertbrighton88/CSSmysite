@@ -1,0 +1,129 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Redressed', cursive;
+  font-size: 5.2rem;
+  color: #00303f;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #cdac81;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #cdac81;
+}
+a{
+  color: #00303f;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover{
+color: #f5f4f4;
+}
+
+p{
+  line-height: 2;
+}
+
+.dotted-hr{
+  border: dotted #cae4db 8px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+.top-container{
+  background-color: #cae4db;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+position: relative;
+padding-top: 50px;
+margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #cae4db;
+  padding: 50px 0 20px;
+  color: #cdac81;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.top-cloud {
+position: absolute;
+right: 300px;
+top: 30px;
+}
+
+.bottom-cloud {
+position: absolute;
+left: 250px;
+bottom: 300px;
+}
+
+.recruitment-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bdm-img{
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+.btn {
+     background: #CDAC81;
+     background-image: -webkit-linear-gradient(top, #CDAC81, #C89F69);
+     background-image: -moz-linear-gradient(top, #CDAC81, #C89F69);
+     background-image: -ms-linear-gradient(top, #CDAC81, #C89F69);
+     background-image: -o-linear-gradient(top, #CDAC81, #C89F69);
+     background-image: -webkit-gradient(to bottom, #CDAC81, #C89F69);
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     color: #00303F;
+     font-family: Open Sans;
+     font-size: 20px;
+     font-weight: 100;
+     padding: 9px;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+     text-align: center;
+  }
+.copyright {
+  color: #f5f4f4;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
